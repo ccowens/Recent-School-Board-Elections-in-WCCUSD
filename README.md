@@ -17,7 +17,9 @@ The CSV file "Recent WCCUSD Elections.csv" has the following columns (variables)
 * Won
 * Ballot Position
 
-The columns below were extracted from a series of PDF documents called  "CALIFORNIA COUNTY, CITY, AND SCHOOL DISTRICT ELECTION OUTCOMES / _YYYY_  ELECTIONS / School District Offices and Ballot Measures" made available by the Secretary of State on the page, [County, City, School District & Ballot Measure Election Results](http://www.sos.ca.gov/elections/county-city-school-district-ballot-measure-election-results/). I used a Java application called [Tabula](https://github.com/tabulapdf/tabula/blob/master/README.md) to grab the tables from the PDFs for the different years so they could be pasted as CSV into a Google Sheet. (I noticed an error in 2014 that didn't properly list the incumbents as incumbents, so I fixed it in the Google Sheet before saving as CSV.)
+The columns below were extracted from a series of PDF documents called  "CALIFORNIA COUNTY, CITY, AND SCHOOL DISTRICT ELECTION OUTCOMES / _YYYY_  ELECTIONS / School District Offices and Ballot Measures" made available by the Secretary of State on the page, [County, City, School District & Ballot Measure Election Results](http://www.sos.ca.gov/elections/county-city-school-district-ballot-measure-election-results/). I used a Java application called [Tabula](https://github.com/tabulapdf/tabula/blob/master/README.md) to grab the tables from the PDFs for the different years so they could be pasted as CSV into a Google Sheet.
+
+*Note:* I noticed errors in 2014 (Kronenberg, Merriweather) and 1999 (Player, Harris, Harris-Pitts) that didn't properly list the incumbent status of candidates (per the Statement of Votes and my knowledge), so I fixed it in the Google Sheet before saving as CSV.
  
 * First Name
 * Last Name
